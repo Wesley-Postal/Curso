@@ -1,0 +1,27 @@
+/* 
+
+BLOCK: div, h1 - h6, p, form, table, header, footer, section, article, nav, ul, ol, li, hr, main, blockquote
+
+INLINE: a, span, em, strong, b, i, u, s, small, img, br, input, select, textarea, label e button INLINE-BLOCK: img, input, button, e select 
+
+
+Block => A propriedade CSS block-size define o tamanho horizontal ou vertical de um elemento bloco.
+
+
+Inline =>  Um do lado do outro em linha.
+*/ 
+
+
+.block {
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.inline { 
+    display: inline;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 255, 128);
+}

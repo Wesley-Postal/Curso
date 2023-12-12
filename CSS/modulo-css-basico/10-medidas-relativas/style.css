@@ -1,0 +1,25 @@
+html {
+    background-color: #ccc;
+    font-size: 32px;
+}
+
+body {
+    background-color: blueviolet;
+    width: 50%;
+}
+
+.pai {
+    background-color: #ea80fc;
+    width: 50%;
+}
+
+.filha {
+    background-color: #1de9b6;
+    width: 50%;
+}
+
+
+/* 
+    rem ( raiz )
+    1em ( Recomendado pela W3C )  => 16px
+*/

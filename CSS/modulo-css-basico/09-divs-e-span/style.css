@@ -1,0 +1,16 @@
+.produto {
+    padding-left: 10px;
+    margin-bottom: 40px;
+    border: solid 1px black;
+    background-color: aqua;
+}
+
+.descricao-produto {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.produto span {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: rgb(21, 247, 21);
+}
