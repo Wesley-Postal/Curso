@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem responsivas usando a tag PICTURE</title>
+</head>
+<body>
+    <h1>Picture com desktop first</h1>
+
+    <!-- <picture>
+        <source media="(min-width: 1024px)" srcset="https://placeholder.com/1200">
+
+        <source media="(min-width: 768px)" srcset="https://placeholder.com/850">
+       
+        <source media="(min-width: 465px)" srcset="https://placeholder.com/500">
+       
+        <img src="https://placeholder.com/300" alt="placeholder">
+    </picture> -->
+
+
+
+    <picture>
+        <source media="(max-width: 375px)" srcset="https://placeholder.com/250">
+
+        <source media="(max-width: 425px)" srcset="https://placeholder.com/350">
+        
+        <source media="(max-width: 768px)" srcset="https://placeholder.com/500">
+        
+        <img src="https://placeholder.com/1200" alt="placeholder">
+    </picture>
+</body>
+</html>
