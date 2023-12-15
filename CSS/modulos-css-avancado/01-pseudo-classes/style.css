@@ -1,0 +1,38 @@
+/* seletor:pseudo-classe {
+    propriedade: valor;
+} */
+
+body {
+    background-color: rgba(0, 0, 0, 0.47);
+    color: black;
+}
+
+/* p:first-child {
+    color: aquamarine;
+}
+
+p:last-child {
+    color: chartreuse;
+}
+
+p:not(.padrao) {
+    color: yellow;
+}
+
+p:nth-child(odd) {
+    color: red;
+}
+
+li:nth-child(n+2):nth-child(-n+5) {
+    color: red;
+} */
+
+li:nth-last-child(1) {
+    color: red;
+}
+
+p:only-child {
+    color: red;
+}
+
+/* https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-classes */
