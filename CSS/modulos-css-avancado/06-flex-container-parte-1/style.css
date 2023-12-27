@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+}
+
+.container div {
+    background-color: aqua;
+    color: black;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
